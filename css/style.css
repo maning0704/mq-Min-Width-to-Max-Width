@@ -1,0 +1,14 @@
+@import url(sanitize.css);
+
+body {
+  margin: 30px;
+}
+
+@media only screen and (max-width:900px) and (min-width:600px){
+  div.example {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: yellow;
+  }
+}
